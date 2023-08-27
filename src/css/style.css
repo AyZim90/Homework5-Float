@@ -3,31 +3,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 a {
     text-decoration: none;
 }
+
 .header {
-    padding: 16px;
+    padding: 20px;
     overflow-y: hidden;
     background-color: #212529;
 }
 
-.logo{
+.logo {
     float: left;
-    width: 200px;
+    width: 250px;
+    padding-left: 60px;
 }
-.menu-bar{
+
+.menu-bar {
     float: right;
     padding-right: 40px;
+
 }
-.menu-bar a{
+
+.menu-bar a {
     margin-right: 10px;
     margin-left: 10px;
     padding-right: 40px;
     color: white;
-    font-size: 0.95rem;
-} 
-.first{
+    font-size: 1rem;
+    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.menu-bar a:hover {
+    color: #d5a804;
+    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.first {
     background-image: url(/src/img/header-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,22 +48,25 @@ a {
     padding: 15rem;
     text-align: center;
 }
+
 .first h1 {
     text-align: center;
     color: white;
     font-size: 50px;
     margin-bottom: 45px;
 }
+
 .first p {
     font-size: 70px;
     color: white;
     text-align: center;
     margin-bottom: 60px;
 }
+
 .first-btn {
     text-align: center;
     color: white;
-    background-color:#FFc800;
+    background-color: #FFc800;
     padding: 20px 40px;
     font-size: 18px;
     font-weight: 700;
@@ -58,12 +74,14 @@ a {
     text-transform: uppercase;
     border: none;
     border-radius: 3px;
-    transition: 0.3s;
+    transition: all 0.3s ease 0s;
 }
-.first-btn:hover{
-    background-color:#FFc800;
+
+.first-btn:hover {
+    background-color: #ca9e00;
     color: white;
 }
+
 .second {
     background-color: white;
     background-repeat: no-repeat;
@@ -72,20 +90,22 @@ a {
     padding-top: 7rem;
     padding-bottom: 5rem;
     text-align: center;
-    
 }
+
 .second h1 {
     text-align: center;
     color: #212529;
     font-size: 40px;
     margin-bottom: 0px 0px 16px;
 }
+
 .second p {
     font-size: 16px;
     color: #6c757d;
     text-align: center;
     margin: 0px 0px 10px;
 }
+
 #services {
     background-color: #fff;
     background-repeat: no-repeat;
@@ -94,11 +114,13 @@ a {
     height: 500px;
     text-align: center;
     border-width: 100%;
+    padding-left: 30px;
 }
+
 #services .imgs {
     float: left;
     width: 20%;
-    margin-top: 5px;     
+    margin-top: 5px;
     margin-left: 85px;
     margin-right: 90px;
     display: flex;
@@ -106,13 +128,19 @@ a {
     align-items: center;
     text-align: center;
 }
+
 #services .imgs img {
     width: 100%;
-    border-radius: 50%; /* Делаем изображение круглым */
-    overflow: hidden; /* Обрезаем содержимое, чтобы сохранить форму */
-    width: 14rem; /* Задаем желаемую ширину */
-    height: 14rem; /* Задаем желаемую высоту */
-    position: relative; /* Позиционирование для линии вокруг изображения */
+    border-radius: 50%;
+    /* Делаем изображение круглым */
+    overflow: hidden;
+    /* Обрезаем содержимое, чтобы сохранить форму */
+    width: 14rem;
+    /* Задаем желаемую ширину */
+    height: 14rem;
+    /* Задаем желаемую высоту */
+    position: relative;
+    /* Позиционирование для линии вокруг изображения */
     margin-left: 150px;
     margin-right: 150px;
 }
@@ -122,15 +150,18 @@ a {
     font-size: 23px;
     margin-bottom: 16px 0px;
 }
+
 #services .imgs p {
     font-size: 16px;
     color: #6c757d;
     text-align: center;
     margin: 0px 0px 16px;
 }
+
 .backgroung-color {
     background-color: rgb(248, 249, 250);
 }
+
 .third {
     background-repeat: no-repeat;
     background-size: cover;
@@ -139,88 +170,108 @@ a {
     padding-bottom: 5rem;
     text-align: center;
 }
+
 .third h1 {
     text-align: center;
     color: #212529;
     font-size: 40px;
     margin-bottom: 0px 0px 16px;
 }
+
 .third p {
     font-size: 16px;
     color: #6c757d;
     text-align: center;
     margin: 0px 0px 10px;
 }
-#portfolio{
+
+#portfolio {
     overflow: auto;
     padding-bottom: 7rem;
+    padding-left: 30px;
 }
-#portfolio .imgs{
+
+#portfolio .imgs {
     float: left;
     width: 30%;
     margin-left: 36px;
     margin-top: 20px;
 }
+
 #portfolio .imgs img {
     width: 100%;
 }
+
 .fourth {
-    background-color:#fff;
+    background-color: #fff;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     padding-top: 7rem;
     padding-bottom: 5rem;
     text-align: center;
-    margin-top:1rem;
+    margin-top: 1rem;
 }
+
 .fourth h1 {
     text-align: center;
     color: #212529;
     font-size: 40px;
     margin-bottom: 0px 0px 16px;
 }
+
 .fourth p {
     font-size: 16px;
     color: #6c757d;
     text-align: center;
     margin: 0px 0px 10px;
 }
-#team .imgs{
+
+#team .imgs {
     float: left;
     width: 20%;
-    margin-top: 5px;     
+    margin-top: 5px;
     margin-left: 85px;
     margin-right: 90px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding-left: 30px;
 }
+
 #team .imgs img {
     width: 100%;
-    border-radius: 50%; /* Делаем изображение круглым */
-    overflow: hidden; /* Обрезаем содержимое, чтобы сохранить форму */
-    width: 14rem; /* Задаем желаемую ширину */
-    height: 14rem; /* Задаем желаемую высоту */
-    position: relative; /* Позиционирование для линии вокруг изображения */
+    border-radius: 50%;
+    /* Делаем изображение круглым */
+    overflow: hidden;
+    /* Обрезаем содержимое, чтобы сохранить форму */
+    width: 14rem;
+    /* Задаем желаемую ширину */
+    height: 14rem;
+    /* Задаем желаемую высоту */
+    position: relative;
+    /* Позиционирование для линии вокруг изображения */
     border: 0.5rem solid rgba(0, 0, 0, 0.1);
     margin-left: 150px;
     margin-right: 150px;
 }
+
 #team .imgs h2 {
     text-align: center;
     color: #212529;
     font-size: 24px;
     margin-bottom: 0px 0px 16px;
 }
+
 #team .imgs p {
     font-size: 16px;
     color: #6c757d;
     text-align: center;
     margin: 0px 0px 10px;
 }
-#svg{
+
+#svg {
     display: flex;
     width: 100%;
     align-items: center;
@@ -228,21 +279,22 @@ a {
     padding-top: 100px;
     padding-bottom: 100px;
 }
-#svg .logo {   
+
+#svg .logo {
     text-align: center;
     height: 50px;
 }
-#svg .logo img{
+
+#svg .logo img {
     height: 100%;
     align-items: center;
 }
+
 .team-bottom-text {
     font-size: 18px;
     color: #6c757d;
     text-align: center;
     margin: 0px 0px 10px;
-    padding-left:300px;
+    padding-left: 300px;
     padding-right: 300px;
-
 }
-
